@@ -1,6 +1,5 @@
-import { useBusinesses } from "./businesses/BusinessProvider.js"
-import { newyorkBusiness } from './BusinessProvider.js'
-import { business } from "./businesses/Business.js"
+import { useBusinesses } from "./BusinessProvider.js"
+import { business } from "./Business.js"
 
 const contentTarget = document.querySelector(".business")
 
