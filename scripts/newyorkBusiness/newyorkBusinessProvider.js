@@ -1,4 +1,4 @@
-export const businesses = [
+const businesses = [
   {
     purchasingAgent: { nameLast: "Kirlin", nameFirst: "Kristy" },
     phoneWork: "089.129.2290 x9400",
@@ -111,7 +111,4 @@ export const businesses = [
   }
 ];
 
-export const useBusinesses = () => {
-  return businesses.slice()
-}
-
+export const newyorkBusinessCollection = businesses.filter(business => business.addressStateCode === "NY")
