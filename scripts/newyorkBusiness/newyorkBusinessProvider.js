@@ -111,6 +111,4 @@ const businesses = [
   }
 ];
 
-export const useBusinesses = () => {
-  return businesses.slice()
-}
+export const newyorkBusinessCollection = businesses.filter(business => business.addressStateCode === "NY")

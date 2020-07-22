@@ -1,5 +1,6 @@
-import { businessList } from './BusinessList.js'
+import { businessList } from './businesses/BusinessList.js'
+import { newyorkBusinessList } from './newyorkBusiness/newyorkBusinessList.js'
 
-console.log('java works')
 
 businessList()
+newyorkBusinessList()
